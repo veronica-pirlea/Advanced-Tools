@@ -87,3 +87,59 @@ p {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 1200px) {
+  .navbar-brand {
+    font-size: 50px;
+  }
+  .navbar-toggler {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 100px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 70px;
+    line-height: 1.5;
+  }
+  h3 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+  .navigation-links a {
+    text-align: center;
+    font-size: 55px;
+  }
+  .col-sm-6 {
+    display: block;
+    margin: 0 auto;
+  }
+  .h2-paragraphs {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .app-paragraphs {
+    font-size: 50px;
+  }
+  .launch-button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .launch-link {
+    text-align: center;
+    font-size: 50px;
+  }
+  .about-paragraph {
+    font-size: 45px;
+    text-align: center;
+  }
+  #contact-me {
+    font-size: 80px;
+  }
+  .email-link {
+    font-size: 60px;
+  }
+}
